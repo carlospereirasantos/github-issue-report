@@ -22,6 +22,7 @@ console.log("Key check:", {
 const ghApp = new App({ appId: process.env.GITHUB_APP_ID, privateKey });
 
 const TYPES = {
+    crash: { label: "crash-log", prefix: "Crash Log" },
     bug: { label: "bug", prefix: "Bug" },
     feature: { label: "feature-request", prefix: "Feature request" },
     suggestion: { label: "suggestion", prefix: "Suggestion" },
